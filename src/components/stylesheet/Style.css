@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+ /************************** header section css here *********************/
+ .Header-section {
+    background-color: #ffffff !important;
+    color: rgb(189 189 189) !important;
+  }
+  .dashboard-header-section .dashboard-header-list {
+    display: flex;
+    position: relative;
+}
+.dashboard-header-listitemicon {
+    min-width: auto !important;
+    padding-right: 11px !important;
+}
+.dashboard-header-listitem {
+    display: contents !important;
+}
+.Header-section {
+    padding: 20px 23px 20px 35px;
+}
+.Header-section .Mui-selected.dashboard-header-listitembutton:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    border: 3px solid #3564f6;
+    border-radius: 6px;
+    top: 43px;
+    left: 77px;
+}
+
+.Mui-selected.dashboard-header-listitembutton {
+    background-color: transparent !important;
+}
+.Mui-selected.dashboard-header-listitembutton .dashboard-header-listitemicon,.Mui-selected.dashboard-header-listitembutton .dashboard-header-listitemtext span{
+color: #3366ff;
+font-weight: 600;
+}
+
+
+/************************** header section css here *********************/
+
+/************************** Dashboard page section **********************/
+.Dashboard-page-box {
+    padding: 50px 18px 14px 55px;
+}
+.Dashboard-page-box .Dashboard-page-date-section .Dashboard-page-date-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a4848;
+    font-family: sans-serif;
+}
+.Dashboard-page-button-section .Dashboard-one-button-section {
+    border: 1px solid #3366ff;
+    padding: 10px 40px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #3366ff;
+}
+
+.Dashboard-page-button-section .Dashboard-two-button-section{
+    border: 1px solid #3366ff;
+    padding: 10px 60px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    background-color:#3366ff;
+}
+.Dashboard-page-button-section .Dashboard-two-button-section .MuiSvgIcon-root {
+    padding-right: 10px;
+}
+.Dashboard-page-grid .Dashboard-page-section-grid {
+    padding-bottom: 37px;
+}
+/************************** Dashboard page section **********************/
+
+/************************** upcoming job page ***************************/
+/* .upcoming-jobs-section {
+    box-shadow: 4px 7px 8px 1px rgba(0,0,0,0.2), 4px 8px 7px 0px rgba(0,0,0,0.14), 4px 6px 7px 7px rgba(0,0,0,-0.88) !important;
+    background-color: #fff;
+    
+} */
+
+
+.card-header-heading {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 14px !important;
+}
+.card-header-heading .MuiCardHeader-content span {
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.card-header-heading .filter-section-icon {
+    color: #3366ff;
+}
+
+.job-searching-grid .job-secaring-list .joblistitemname {
+    padding: 14px 16px;
+    text-align: justify;
+    border-radius: 10px 10px;
+    margin-bottom: 11px;
+    box-shadow: 3px 3px 3px #c5c5c5;
+    color: #fff !important;
+}
+.job-searching-grid .job-secaring-list .backgroundone {
+    background-color: #ff9966;
+}
+.job-searching-grid .job-secaring-list .backgroundtwo {
+    background-color: #6666ff ;
+}
+.job-searching-grid .job-secaring-list .backgroundthree {
+    background-color: #66cccc;
+}
+
+
+.job-searching-grid .job-secaring-list .joblistitemname span,.job-searching-grid .job-secaring-list .joblistitemname .MuiListItemText-secondary {
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+.job-searching-grid  .jobsupdating {
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 21px 2px;
+    background: transparent;
+    font-size: 10px;
+}
+.incoming-job-page-card-pages {
+    background: transparent;
+    border: none;
+    box-shadow: none !important;
+}
+.incoming-job-page-card-pages .incoming-job-box {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 10px;
+}
+.incoming-job-page-card-pages .incoming-job-box .incoming-job-box-list .incoming-job-page-boxes {
+    padding: 8px 11px;
+    width: 100%;
+    height: auto;
+}
+/************************** upcoming job page ***************************/
+
+
+/**************************  invoing page ***************************/
+.invoing-card-part-grid{
+    padding: 0 !important;
+}
+.invoing-page-section .card-header .MuiCardHeader-content {
+    padding: 12px 10px;
+}
+.data-item-details-list .data-item-details-list-one {
+    padding: 16px 15px;
+    width: 100%;
+    height: 430px;
+}
+/************************** invoing page ***************************/
+
